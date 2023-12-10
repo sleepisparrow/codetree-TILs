@@ -1,5 +1,6 @@
 N = int(input())
 arr = list(map(int, input().split()))
+arr.sort()
 
 def printAll(arr):
     for i in arr:

@@ -42,4 +42,6 @@ for(let target = 0; target < k; target++) {
     arr = ret
 }
 
-console.log(arr)
+for (let i = 0; i < n; i++) {
+    process.stdout.write(arr[i]+" ")
+}
